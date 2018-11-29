@@ -10,7 +10,6 @@ export default function GameForm() {
 		<form>
 			<input type="number" required />
 			<button type="submit">Guess</button>
-
 		</form>
 	);
 }
