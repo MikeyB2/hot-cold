@@ -1,6 +1,9 @@
 import React from 'react';
 
-import './guess-list.css';
+import './numberOfGuesses.css';
+
+
+
 
 export default function NumberOfGuesses(props) {
     const guesses = props.guesses.map((guess, index) => (

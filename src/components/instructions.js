@@ -1,18 +1,17 @@
 import React from 'react';
 
-import './instructions.css';
+// import './instructions.css';
 
 export default function Instructions(props) {
     return (
         <section id="what" tabIndex="-1">
-            <h2>What do I do?</h2>
-            <p>This is a Hot or Cold Number Guessing Game. The game goes like this:</p>
+            <h2>How to Play?</h2>
+            <p>Just like the Hot or Cold game you used to play as kids:</p>
             <ol>
-                <li>I pick a <strong>random secret number</strong> between 1 to 100 and keep it hidden.</li>
-                <li>You need to <strong>guess</strong> until you can find the hidden secret number.</li>
-                <li>You will <strong>get feedback</strong> on how close ("hot") or far ("cold") your guess is.</li>
+                <li>I, the computer, will pick a <strong>random number</strong> between 1 to 100 that you will have to guess.</li>
+                <li>You need to <strong>guess</strong> until I tell you that you figured out the number I picked.</li>
+                <li>You will get <strong>Hints</strong> on how you get by saying variations of Hot or Cold.</li>
             </ol>
-            <p>If you're using a screen reader, you can use the visually hidden "Hear state of game" link in the navigation region to get a reminder of all your past guesses and how close your current guess is to being correct.</p>
         </section>
     );
 }
